@@ -9,7 +9,10 @@ function cube () {
 	var num = document.getElementById("n1");
 	num.value = Math.pow(num.value, 3);
 }
-
+function sine () {
+	var num = document.getElementById("n1");
+	num.value = Math.sin(num.value*Math.PI/180);
+}
 
 </script>
 
@@ -22,7 +25,7 @@ Number:
 
 
 <button onClick="cube ()">x<sup>3</sup></button>
-
+<button onClick="sine ()">Sin x</button>
 
 </body>
 
